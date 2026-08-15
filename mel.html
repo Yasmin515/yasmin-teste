@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Para MelMel 🍯</title>
+<link rel="stylesheet" href="mel.css">
+</head>
+
+<body>
+
+<!-- MÚSICA AUTOMÁTICA -->
+<audio autoplay loop>
+    <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<!-- BOTÃO -->
+<button class="botao" onclick="abrirCarta()">
+    Clique aqui 🐆
+</button>
+
+<!-- CARTA -->
+<div class="carta" id="carta">
+    <h2>Para você, meu bem ☀️</h2>
+    <p>
+     Meu Bem, você é uma menina incrível e eu tenho orgulho de você.<br>
+        E já dizia Sérgio Maré - Olhos de Mel<br>
+        Uma mistura de brisa com pé no chão, uma rima perfeita, mais linda canção...<br>
+    </p>
+    <div class="coracao"></div>
+</div>
+
+
+<script src="mel.js"></script>
+
+</body>
+</html>
